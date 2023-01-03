@@ -21,6 +21,7 @@ namespace Projet_1
             // TODO: Add your initialization logic here
 
             base.Initialize();
+            Window.Title = "Test";
         }
 
         protected override void LoadContent()
@@ -45,6 +46,7 @@ namespace Projet_1
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            GraphicsDevice.Clear(Color.Red);
 
             base.Draw(gameTime);
         }
